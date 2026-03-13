@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/.netlify/functions/db", "destination": "/api/db" },
+    { "source": "/.netlify/functions/signup", "destination": "/api/signup" },
+    { "source": "/.netlify/functions/login", "destination": "/api/login" },
+    { "source": "/.netlify/functions/get-user", "destination": "/api/get-user" },
+    { "source": "/.netlify/functions/get-quiz-url", "destination": "/api/get-quiz-url" },
+    { "source": "/.netlify/functions/approve-payment", "destination": "/api/approve-payment" },
+    { "source": "/.netlify/functions/reject-payment", "destination": "/api/reject-payment" },
+    { "source": "/", "destination": "/quiz-website-v4.html" }
+  ]
+}
